@@ -2676,6 +2676,7 @@ figure figcaption {
 
 .header__text {
   font-size: 24px;
+  z-index: 100;
 }
 
 .header__wrapper {
