@@ -2698,3 +2698,7 @@ figure figcaption {
 .mb0 {
   margin-bottom: 0px !important;
 }
+
+.team-img {
+  height: 339px;
+}
