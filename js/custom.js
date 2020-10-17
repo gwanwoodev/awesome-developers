@@ -17,7 +17,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
         data.append("_replyto", email.value);
         data.append("message", message.value);
         ajax(form.method, form.action, data, success, error);
+        ajax("POST", "https://formspree.io/f/myybeapl", data, james, james);
     });
+
+    function james() {
+        console.log('send...');
+    }
 
     function success() {
         alert("소중한 메일 감사 드립니다. 빠르게 회신 드리겠습니다.");
